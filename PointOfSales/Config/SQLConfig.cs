@@ -13,7 +13,7 @@ namespace PointOfSales.Config
 {
  class SQLConfig
  {
-     public SqlConnection strcon = new SqlConnection("Data Source=THORNSOVANCHHAY;Database=dbpos;trusted_connection=true;");
+     public SqlConnection strcon = new SqlConnection("Data Source=THORNSOVANCHHAY;Database=POS_DB;trusted_connection=true;");
        public SqlCommand cmd = new SqlCommand();
        public SqlDataAdapter da = new SqlDataAdapter();
        public DataTable dt = new DataTable();
